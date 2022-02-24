@@ -1,0 +1,6 @@
+/* pro sizes */
+@media screen and (max-width: 844px) {
+  #about-section {
+    margin: 15px;
+  }
+}
