@@ -1,12 +1,42 @@
 /* pro sizes */
 @media screen and (max-width: 844px) {
+  /* index styles */
   #about-section {
     margin: 15px;
+  }
+
+  /* project page styles */
+  .fa-brands {
+    width: 30px;
+    font-size: 1rem;
+  }
+
+  .fa-brands:hover {
+    font-size: 1.5rem;
+  }
+
+  #tech-stack-header {
+    font-size: 13px;
   }
 }
 /* pro max sizes */
 @media screen and (max-width: 966px) {
+  /* index styles */
   #about-section {
     margin: 20px;
+  }
+
+  /* project page styles */
+  .fa-brands {
+    width: 25px;
+    font-size: 1rem;
+  }
+
+  .fa-brands:hover {
+    font-size: 1.2rem;
+  }
+
+  #tech-stack-header {
+    font-size: 12px;
   }
 }
