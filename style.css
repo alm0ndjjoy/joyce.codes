@@ -13,7 +13,8 @@ body {
 }
 
 /* project page styles */
-#tech-stack li {
+#tech-stack li,
+#contact-alt li {
   list-style-type: none;
   display: inline;
 }
@@ -49,4 +50,17 @@ body {
 
 #tech-stack-header {
   text-align: center;
+}
+
+/* contact page general styles */
+#twitter-logo {
+  color: #188cd8;
+}
+
+#linkedin-logo {
+  color: #0f66c3;
+}
+
+#github-logo {
+  color: #161b21;
 }
