@@ -4,8 +4,8 @@ body {
 /* home page styles */
 #portfolio-img {
   border-radius: 50%;
-  height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 #about-section {
@@ -18,10 +18,12 @@ body {
   display: inline;
 }
 /* FA styles */
+
 .fa-brands {
   width: 60px;
   font-size: 2rem;
 }
+
 .fa-brands:hover {
   font-size: 2.5rem;
 }
