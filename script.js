@@ -19,3 +19,34 @@ function postActionStyles() {
     .slice(1)
     .toLowerCase()}! I will reach out via email within the next 24 hours.`;
 }
+
+// project display
+project = [
+  {
+    id: 1,
+    name: "Google Search Engine",
+    img: "",
+    about: "fsdfsdfsdfsfdsdfsfsf",
+  },
+  {
+    id: 2,
+    name: "RGB Generator",
+    img: "",
+    about: "fsdfsdfsfsfsfsdfsdfsdffsdf",
+  },
+  {
+    id: 3,
+    name: "Black Jack",
+    img: "",
+    about: "fsdfsfsdfsffsdfsdfsfsffsdf",
+  },
+];
+
+project.map((projectDisplay) => {
+  const title = document.createElement("h4");
+  const img = document.createElement("img");
+  const desc = document.createElement("p");
+  title.textContent = projectDisplay.name;
+  img.src = projectDisplay.img;
+  desc.textContent = projectDisplay.about;
+});
