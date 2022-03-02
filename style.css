@@ -1,8 +1,50 @@
+body {
+  background-color: #f2f2f2;
+}
+/* home page styles */
 #portfolio-img {
   border-radius: 50%;
-  height: 30em;
+  height: 15rem;
+  width: 15rem;
 }
 
 #about-section {
   margin: 5em;
+}
+
+/* project page styles */
+#tech-stack li {
+  list-style-type: none;
+  display: inline;
+}
+/* FA styles */
+.fa-brands {
+  width: 60px;
+  font-size: 2rem;
+}
+.fa-brands:hover {
+  font-size: 2.5rem;
+}
+
+#html-logo {
+  color: #e35026;
+}
+
+#css-logo {
+  color: #274de5;
+}
+
+#js-logo {
+  color: #fedd24;
+}
+
+#react-logo {
+  color: #62dafb;
+}
+#bootstrap-logo {
+  color: #7953b3;
+}
+
+#tech-stack-header {
+  text-align: center;
 }
