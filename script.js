@@ -4,10 +4,10 @@ const form = document.getElementById("contact-form");
 const firstName = document.getElementById("name");
 
 // post form actions
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   postActionStyles();
-// });
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  postActionStyles();
+});
 
 // inline styling for post submit
 function postActionStyles() {
