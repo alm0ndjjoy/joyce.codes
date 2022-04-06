@@ -14,25 +14,25 @@
       src="https://kit.fontawesome.com/acfdbc8237.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mobileScreen.css">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!-- <link rel="stylesheet" href="../styles/mobileScreen.css"> -->
     <title>Projects</title>
   </head>
   <body>
     <!-- nav -->
-    <nav aria-label="breadcrumb" id="project-img">
+    <nav id="nav-bar" aria-label="breadcrumb" id="project-img">
       <ol class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">
-          <a href="./index.html">Home</a>
+          <a href="../index.html">Home</a>
         </li>
-        <li class="breadcrumb-item"><a href="projects.html">Projects</a></li>
-        <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+        <li class="breadcrumb-item"><a href="../projects/projects.html">Projects</a></li>
+        <li class="breadcrumb-item"><a href="../contact/contact.html">Contact</a></li>
       </ol>
     </nav>
 
 
     <!-- project display -->
- <div class="container">
+ <div id= "main-container" class="container">
      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://res.cloudinary.com/alm0ndjjoy/image/upload/c_scale,h_556,w_998/v1646262293/portfolio-joyce.codes-imgs/Screen_Shot_2022-03-02_at_6.04.48_PM_o0sq0m.png" class="d-block w-100" alt="...">
+      <imgs src="https://res.cloudinary.com/alm0ndjjoy/image/upload/c_scale,h_556,w_998/v1646262293/portfolio-joyce.codes-imgs/Screen_Shot_2022-03-02_at_6.04.48_PM_o0sq0m.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>RBG Generator</h5>
         <p>Ever get bored using the same old colors in your project? Using DOM manipulation, I created an RGB generator to help you get creative in your styles! </p>
@@ -102,7 +102,8 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"
       ></script>
-      <script src="script.js"></script>
+      <script src="./projects.js"></script>
+      <script src="../script.js" defer></script>
 
     </div>
   </body>
