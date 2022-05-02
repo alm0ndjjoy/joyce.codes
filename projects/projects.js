@@ -39,7 +39,7 @@ const projectDisplay = (arr) => {
 
   arr.map((project) => {
     const cardHolder = document.createElement("div");
-    cardHolder.classList.add("col");
+    cardHolder.classList.add("col", "card");
     const title = document.createElement("h5");
     title.classList.add("card-title");
     const para = document.createElement("p");
@@ -58,43 +58,3 @@ const projectDisplay = (arr) => {
 };
 
 projectDisplay(project);
-
-// const projectDisplay = (arr) => {
-//   const projectCarousel = document.getElementById("project-carousel");
-//   const carouselItemActive = document.getElementById("carousel-active");
-//   const carouselItem = document.getElementById("carousel-item");
-//   const textBlock = document.getElementById("text-block");
-//   // const mainContainer = document.getElementById("carousel-slide");
-
-//   arr.map((project) => {
-//     if (project[0] === 0) {
-//       const firstDisplayDiv = document.createElement("div");
-//       const img = document.createElement("img");
-//       const title = document.createElement("h5");
-//       const desc = document.createElement("p");
-//       const link = document.createElement("a");
-//       img.src = project.img[0];
-//       title.textContent = project.name[0];
-//       desc.textContent = project.about[0];
-//       link.href = project.link[0];
-//       firstDisplayDiv.append(img, title, desc, link);
-//       carouselItemActive.append(firstDisplayDiv);
-//     } else {
-//       // const outerCard = document.createElement("div");
-//       // outerCard.className = "carousel-item";
-//       const img = document.createElement("img");
-//       const title = document.createElement("h5");
-//       const desc = document.createElement("p");
-//       const link = document.createElement("a");
-//       img.src = project.img;
-//       title.textContent = project.name;
-//       desc.textContent = project.about;
-//       link.href = project.link;
-//       textBlock.append(title, desc, link);
-//       carouselItem.append(img, textBlock);
-//       // projectCarousel.append(projectCarousel);
-//     }
-//   });
-// };
-
-// console.log(project[0].id);

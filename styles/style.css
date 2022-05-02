@@ -78,3 +78,9 @@ body {
   /* bottom: 100rem; */
   margin-top: 20rem;
 }
+
+/* projects */
+.card {
+  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
